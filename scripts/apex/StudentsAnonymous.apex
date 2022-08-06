@@ -1,0 +1,14 @@
+Students st1 = new Students ();
+st1.firstName ='Ayse';
+st1.lastName = 'Yolcu';
+st1.classYear = 1999;
+st1.major= 'Math';
+string returnMajor = st1.generateReport();
+System.debug(returnMajor);
+Students st2 = new Students ();
+st2.firstName ='Ali';
+st2.lastName = 'Yol';
+st2.classYear = 1990;
+st2.major= 'Art';
+string returnMajor1 = st2.generateReport();
+System.debug(returnMajor1);

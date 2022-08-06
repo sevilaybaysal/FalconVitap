@@ -1,0 +1,5 @@
+Select Accountid, FirstName, LastName, Email from Contact
+select Name, Phone from Account where Phone = null order by Name
+
+Select  Account.Name, name, lastName FROM Contact order by lastName desc
+Select amount FROM Opportunity ORDER by amount desc limit 8
